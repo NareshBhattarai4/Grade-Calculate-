@@ -1,0 +1,51 @@
+.edit{
+  border:2px solid red;
+  border-radius: 30px;
+  background-color: pink;
+}
+  .row{
+    margin-top:20px;
+    margin-block: 20px;
+    
+   
+  }
+  .row input {
+    display: flex;
+    justify-items: center;
+    
+    margin:20px;
+    color:green;
+   
+    
+  }
+  h1{
+   text-align: center;
+  }
+  #button{
+    margin-left: 25%;
+    color:green;
+    border-radius: 5px;
+  }
+  #button:hover{
+    background-color:red;
+    color:white;
+    transition: 0s;
+  }
+  #pub{
+    color:blue;
+    font-weight: bolder;
+   
+  }
+  h3{
+    text-align: center;
+    color: orange;
+  }
+  h2{
+    text-align: center;
+    color:Blue;
+  }
+  .alert{
+    border:2px solid brown;
+    text-align: center;
+    color:red;
+  }
