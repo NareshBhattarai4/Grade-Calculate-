@@ -1,51 +1,91 @@
-.edit{
-  border:2px solid red;
-  border-radius: 30px;
-  background-color: pink;
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
 }
-  .row{
-    margin-top:20px;
-    margin-block: 20px;
-    
-   
-  }
-  .row input {
-    display: flex;
-    justify-items: center;
-    
-    margin:20px;
-    color:green;
-   
-    
-  }
-  h1{
-   text-align: center;
-  }
-  #button{
-    margin-left: 25%;
-    color:green;
-    border-radius: 5px;
-  }
-  #button:hover{
-    background-color:red;
-    color:white;
-    transition: 0s;
-  }
-  #pub{
-    color:blue;
-    font-weight: bolder;
-   
-  }
-  h3{
-    text-align: center;
-    color: orange;
-  }
-  h2{
-    text-align: center;
-    color:Blue;
-  }
-  .alert{
-    border:2px solid brown;
-    text-align: center;
-    color:red;
-  }
+body{
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  background-color: rgb(250, 249, 246);
+}
+
+.container{
+  
+  display: flex;
+  text-align: center;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  background-color: #89CFF0;
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0.1px 0.1px 2px black;
+  
+  
+}
+.container form{
+  overflow: hidden;
+}
+
+
+h1{
+  color: white;
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  
+}
+input{
+  margin-top: 20px;
+  padding: 10px 40px;
+  box-shadow: 1px 1px 2px black;
+}
+.txt{
+  color:black;
+  margin-top: 4px;
+}
+.txt input{
+  box-shadow: none;
+ 
+}
+button{
+  margin-top: 20px;
+  padding: 8px 110px;
+  outline: none;
+  border:none;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.login{
+ position: absolute;
+ width:400px;
+ height: 400px;
+ top:88%;
+ left:-8%;
+ 
+ text-align:center;
+ background-color: white;
+ border-radius: 30%;
+ transition: all 0.4s ease-in-out;
+ overflow: hidden;
+ 
+}
+.login.active{
+  margin-top: -290px;
+}
+h2{
+  font-size: 32px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.button{
+  background-color: black;
+  color: white;
+  
+}
